@@ -5,6 +5,7 @@
 import time
 
 ## Database connection
+# psycopg2.connect("dbname=forum")
 DB = []
 
 ## Get posts from database.
