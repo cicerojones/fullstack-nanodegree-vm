@@ -1,6 +1,6 @@
 #
 # Database access functions for the web forum.
-
+import bleach
 import psycopg2
 import time
 
