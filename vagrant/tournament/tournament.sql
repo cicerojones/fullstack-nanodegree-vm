@@ -7,3 +7,6 @@
 -- these lines here.
 
 
+CREATE TABLE players2(id serial PRIMARY KEY, player_name text not null, wins integer, matches integer);
+
+CREATE TABLE matches2(winner integer, loser integer);
