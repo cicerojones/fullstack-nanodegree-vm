@@ -6,7 +6,10 @@
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
 
+CREATE DATABASE tournament;
 
-CREATE TABLE players2(id serial PRIMARY KEY, player_name text not null, wins integer, matches integer);
+\c tournament
 
-CREATE TABLE matches2(winner integer, loser integer);
+CREATE TABLE players(id serial PRIMARY KEY, player_name text not null, wins integer, matches integer);
+
+CREATE TABLE matches(winner integer, loser integer);
