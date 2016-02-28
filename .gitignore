@@ -1,2 +1,3 @@
 *.pyc
 *.vagrant
+/vagrant/catalog/database_setup.py
