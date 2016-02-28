@@ -2,7 +2,9 @@
 #
 # Test cases for tournament.py
 
-from tournament import *
+# change name of python file to import from
+
+from final_project import *
 
 def testDeleteMatches():
     deleteMatches()
